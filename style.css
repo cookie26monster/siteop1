@@ -1,17 +1,18 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #214B3B;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    background-color: #ab76e9;
     color: #E8E0D2;
 }
 
 header {
-    background-color: #214B3B;
+    background-color: #4b2123;
     background-image: linear-gradient(
         rgba(22, 59, 45, 0.55),
         rgba(22, 59, 45, 0.55)
     ),
-    url("banner2.jpg");
+    url("banner.jpg");
 
     background-size: cover;
     background-position: center;
@@ -22,11 +23,11 @@ header {
 .logo {
     font-size: 46px;
     font-weight: bold;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
     letter-spacing: 10px;
     margin-bottom: 18px;
 
-    color: #C58A78;
+    color: #FFF6E8;
 
     text-shadow:
         0 -1px 0 #F0C9BA,
@@ -51,8 +52,8 @@ header a {
 }
 
 header a:hover {
-    color: #C58A78;
-    border-bottom: 1px solid #C58A78;
+    color: #ba7df3;
+    border-bottom: 1px solid #ba7df3;
 }
 
 main {
@@ -64,7 +65,7 @@ main {
 
 h1 {
 color: #C58A78;
-font-family: 'Cormorant Garamond', serif;
+font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 52px;
 font-weight: 600;
 letter-spacing: 1px;
@@ -129,7 +130,7 @@ p {
 
 h2 {
 color: #C58A78;
-font-family: 'Cormorant Garamond', serif;
+font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 30px;
 font-weight: 500;
 letter-spacing: 2px;
@@ -140,7 +141,7 @@ margin-bottom: 18px;
 
 h3 {
 color: #C58A78;
-font-family: 'Cormorant Garamond', serif;
+font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 30px;
 font-weight: 500;
 letter-spacing: 2px;
@@ -192,14 +193,14 @@ footer {
 }
 
 footer a {
-    color: #c99572 !important;
+    color: #2c1b01 !important;
     text-decoration: none !important;
     display: inline-block !important;
     margin: 0 15px !important;
 }
 
 footer a:hover {
-    color: #e1b08d !important;
+    color: #870ff7 !important;
     text-decoration: underline !important;
 }
 @media (min-width: 769px) {
@@ -208,7 +209,7 @@ footer a:hover {
     }
 
     footer a {
-        color: #c99572 !important;
+        color: #c20d0d !important;
         display: inline-block !important;
         margin: 0 15px !important;
     }
