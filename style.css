@@ -31,11 +31,11 @@ header {
 
     text-shadow:
         0 -1px 0 #F0C9BA,
-        1px 1px 0 #6B3D32,
-        -1px 1px 0 #6B3D32,
-        1px -1px 0 #6B3D32,
-        -1px -1px 0 #6B3D32,
-        2px 3px 0 #59352D,
+        1px 1px 0 #a59d9b,
+
+        1px -1px 0 #535353,
+
+        2px 3px 0 #000000,
         4px 6px 10px rgba(0, 0, 0, 0.85);
 }
 
@@ -65,12 +65,13 @@ main {
 
 h1 {
 color: #e5f50d;
+-webkit-text-stroke: 1px black;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 52px;
 font-weight: 600;
 letter-spacing: 1px;
 text-shadow:
-1px 1px 0 #5f6358,
+2px 2px 0 #5c5a09,
 2px 2px 4px rgba(0, 0, 0, 0.90);
 }
 
@@ -129,24 +130,26 @@ p {
 }
 
 h2 {
-color: #0408f7;
+color: #2c2fda;
+-webkit-text-stroke: 1px black;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
-font-size: 30px;
+font-size: 32px;
 font-weight: 500;
-letter-spacing: 2px;
-text-shadow: 2px 2px 0 #eef3e5,
+letter-spacing: 3px;
+text-shadow: 2px 2px 0 #FFF6E8,
 2px 2px 4px rgba(0, 0, 0, 0.60);
 margin-top: -10px;
 margin-bottom: 18px;
 }
 
 h3 {
-color: #0408f7;
+color: #2c2fda;
+-webkit-text-stroke: 1px black;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 30px;
 font-weight: 500;
 letter-spacing: 2px;
-text-shadow: 2px 2px 0 #eef3e5,
+text-shadow: 2px 2px 0 #FFF6E8,
 2px 2px 4px rgba(0, 0, 0, 0.60);
 margin-top: -10px;
 margin-bottom: 18px;
@@ -176,7 +179,7 @@ margin-bottom: 18px;
 
     .logo-area img {
         width: 200px;
-         transform: translateX(-10px);
+        transform: translateY(30px);
     }
 }
 
@@ -214,5 +217,11 @@ footer a:hover {
         color: #c20d0d !important;
         display: inline-block !important;
         margin: 0 15px !important;
+    }
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+    header nav {
+        margin-top: 25px;
     }
 }
