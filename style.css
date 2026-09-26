@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Segoe UI", sans-serif;
     font-weight: 600;
-    background-color: #ab76e9;
+    background-color: #527ef5;
     color: #E8E0D2;
 }
 
@@ -64,13 +64,13 @@ main {
 }
 
 h1 {
-color: #C58A78;
+color: #e5f50d;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 52px;
 font-weight: 600;
 letter-spacing: 1px;
 text-shadow:
-1px 1px 0 #E8C7BC,
+1px 1px 0 #5f6358,
 2px 2px 4px rgba(0, 0, 0, 0.90);
 }
 
@@ -83,8 +83,8 @@ p {
 
 .button {
     display: inline-block;
-    background-color: #C58A78;
-    color: #163B2D;
+    background-color: #e93e13;
+    color: #f3c703;
     padding: 12px 22px;
     margin: 10px;
     border-radius: 6px;
@@ -93,7 +93,7 @@ p {
 }
 
 .button:hover {
-    background-color: #D5A696;
+    background-color: #a82504;
 }
 
 @media (max-width: 600px) {
@@ -129,23 +129,25 @@ p {
 }
 
 h2 {
-color: #C58A78;
+color: #0408f7;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 30px;
 font-weight: 500;
 letter-spacing: 2px;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+text-shadow: 2px 2px 0 #eef3e5,
+2px 2px 4px rgba(0, 0, 0, 0.60);
 margin-top: -10px;
 margin-bottom: 18px;
 }
 
 h3 {
-color: #C58A78;
+color: #0408f7;
 font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
 font-size: 30px;
 font-weight: 500;
 letter-spacing: 2px;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+text-shadow: 2px 2px 0 #eef3e5,
+2px 2px 4px rgba(0, 0, 0, 0.60);
 margin-top: -10px;
 margin-bottom: 18px;
 }
@@ -193,7 +195,7 @@ footer {
 }
 
 footer a {
-    color: #2c1b01 !important;
+    color: #c20d0d !important;
     text-decoration: none !important;
     display: inline-block !important;
     margin: 0 15px !important;
