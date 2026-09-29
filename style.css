@@ -59,7 +59,7 @@ header a:hover {
 main {
     max-width: 900px;
     margin: 70px auto;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ p {
 
     main {
         margin: 40px auto;
-        padding: 15px;
+        padding: 0px;
     }
 
     h1 {
@@ -185,7 +185,7 @@ margin-bottom: 18px;
 
     @media (max-width: 600px) {
     main {
-        padding-top: 70px;
+        padding-top: 0px;
     }
 }
 
@@ -222,6 +222,6 @@ footer a:hover {
 
 @media (max-width: 1200px) and (orientation: landscape) {
     header nav {
-        margin-top: 25px;
+        margin-top: 0px;
     }
 }
