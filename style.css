@@ -16,7 +16,7 @@ header {
 
     background-size: cover;
     background-position: center;
-    padding: 10px 10px 10px;
+    padding: 3px 10px;
     text-align: center;
 }
 
@@ -25,7 +25,9 @@ header {
     font-weight: bold;
     font-family: "Arial Rounded MT", Helvetica Rounded, Arial, sans-serif;
     letter-spacing: 10px;
-    margin-bottom: 18px;
+    margin-top: 0px;
+    margin-bottom: 2mm;
+    transform: none;
 
     color: #FFF6E8;
 
@@ -43,7 +45,7 @@ header a {
     color: #E8E0D2;
     text-decoration: none;
     margin: 0 18px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500;
     letter-spacing: 1px;
     padding-bottom: 6px;
@@ -54,6 +56,10 @@ header a {
 header a:hover {
     color: #ba7df3;
     border-bottom: 1px solid #ba7df3;
+}
+
+header nav {
+    margin-top: 2mm;
 }
 
 main {
@@ -97,38 +103,6 @@ p {
     background-color: #a82504;
 }
 
-@media (max-width: 600px) {
-
-    header {
-        padding: 25px 10px 15px;
-    }
-
-    .logo {
-        font-size: 36px;
-        letter-spacing: 6px;
-    }
-
-    header a {
-        display: inline-block;
-        margin: 17px 7px;
-        font-size: 15px;
-    }
-
-    main {
-        margin: 40px auto;
-        padding: 0px;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    p {
-        font-size: 17px;
-    }
-
-}
-
 h2 {
 color: #2c2fda;
 -webkit-text-stroke: 1px black;
@@ -167,8 +141,37 @@ margin-bottom: 18px;
     gap: 20px;
 }
 
-.logo {
-    transform: translateY(30px);
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 8px 10px;
+    }
+
+    .logo {
+        font-size: 36px;
+        letter-spacing: 6px;
+    }
+
+    header a {
+        display: inline-block;
+        margin: 0px 7px;
+        font-size: 17px;
+    }
+
+    main {
+        margin: 40px auto;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -222,6 +225,6 @@ footer a:hover {
 
 @media (max-width: 1200px) and (orientation: landscape) {
     header nav {
-        margin-top: 0px;
+        margin-top: 2mm;
     }
 }
