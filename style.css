@@ -262,7 +262,7 @@ body {
 
 .image-link:hover p {
   font-size: 13px;
-  color: #94550d;
+  color: #505801;
   
 }
 
@@ -276,4 +276,11 @@ body {
   border-radius: 50%;
   font-size: 0.75em;
   line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .image-link {
+    bottom: 60px;
+    right: 15px;
+  }
 }
